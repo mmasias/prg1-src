@@ -1,0 +1,6 @@
+import java.util.Scanner;
+public class ventaFactura{
+	public static void main(String[] args){
+		
+	}
+}

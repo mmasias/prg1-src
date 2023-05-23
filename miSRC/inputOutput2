@@ -1,0 +1,19 @@
+public class inputOutput2 {
+
+    public static void main(String[] args){
+
+        int i;
+
+        String miCadena = "Prueba";
+
+        char[] misCaracteres=miCadena.toCharArray();
+
+        for (i=0; i<misCaracteres.length; i=i+1){
+
+            System.out.println(misCaracteres[i]);
+
+        }
+
+    }
+
+}

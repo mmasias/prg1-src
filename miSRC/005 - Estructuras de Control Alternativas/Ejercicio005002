@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class MayorDosNumeros {
+	public static void main(String args[]) {
+		int mayor, primer_numero, segundo_numero;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Entre el primer número");
+		primer_numero = int.nextInt();
+		System.out.println("Entre el segundo número");
+		segundo_numero = int.nextInt();
+		if (primer_numero > segundo_numero) {
+			mayor = primer_numero;
+		} else {
+			mayor = segundo_numero;
+		}
+		System.out.println("El mayor es:" + mayor);
+	}
+}
